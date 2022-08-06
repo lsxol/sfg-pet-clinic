@@ -53,7 +53,7 @@
             </plugins></pluginManagement>
     </build>
     <scm>
-        <developerConnection>scm:git:git@github.com:springframeworkguru/sfg-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:lsxol/sfg-pet-clinic.git</developerConnection>
       <tag>sfg-pet-clinic-0.0.1</tag>
   </scm>
 </project>
