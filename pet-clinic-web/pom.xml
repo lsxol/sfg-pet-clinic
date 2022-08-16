@@ -22,6 +22,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
             <artifactId>pet-clinic-data</artifactId>
             <groupId>guru.springframework</groupId>
             <version>0.0.2</version>
@@ -102,7 +106,7 @@
                     <execution>
                         <phase>generate-resources</phase>
                         <?m2e execute onConfiguration,onIncremental?>
-                        <goals>
+                             <goals>
                             <goal>compile</goal>
                         </goals>
                     </execution>
@@ -114,6 +118,7 @@
                 </configuration>
             </plugin>
         </plugins>
+
     </build>
 
 
