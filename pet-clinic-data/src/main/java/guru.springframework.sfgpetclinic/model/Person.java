@@ -1,7 +1,10 @@
 package guru.springframework.sfgpetclinic.model;
 
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
@@ -9,7 +12,6 @@ import javax.persistence.MappedSuperclass;
 @Setter
 @Getter
 @AllArgsConstructor
-@Builder
 @NoArgsConstructor
 @MappedSuperclass
 public class Person extends BaseEntity{
